@@ -1,0 +1,23 @@
+@import "./var.less";
+@import "./mixins.less";
+:root{
+  scroll-behavior: smooth;
+}
+body{
+  min-width: 1400px;
+  padding-top: 80px;
+}
+.main-center {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1140px;
+}
+.flex(@justify) {
+  display: flex;
+  justify-content: @justify;
+  align-items: center;
+  flex-wrap: wrap;
+}
+img{
+  display: block;
+}
